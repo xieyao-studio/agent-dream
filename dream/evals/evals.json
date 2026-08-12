@@ -1,0 +1,23 @@
+{
+  "skill_name": "dream",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Make a dream from the permitted recent notes. Write a journal, but do not change factual memory.",
+      "expected_output": "A dated journal is written under dreams/diary with wandering, silence, and zero to three sparks; factual-memory files are unchanged.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Tonight I do not want memory cleanup. I want a dream-like resonance between what has been on my mind. Show me only the sparks afterward.",
+      "expected_output": "A non-cleanup dream with a non-obvious connection; at most three sparks; no factual-memory rewrite.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Did I mention content-team last week?",
+      "expected_output": "The dream skill does not trigger. The agent uses ordinary memory retrieval instead.",
+      "files": []
+    }
+  ]
+}
